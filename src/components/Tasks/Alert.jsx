@@ -6,13 +6,13 @@ const Alert = () => {
   //   };
   return (
     <div>
-      {/* <button
+      {/*   (1) <button
         className="border border-blue-700 p-3 bg-slate-400"
         onClick={handleClick}
       >
         click me
       </button> */}
-      {/* <button
+      {/*  (2) <button
         onClick={function handleclick() {
           alert("hello pooja ");
         }}
@@ -20,6 +20,9 @@ const Alert = () => {
         {" "}
         click me
       </button> */}
+      <div>
+        <h1>I am learning Git</h1>
+      </div>
     </div>
   );
 };
