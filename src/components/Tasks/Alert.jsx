@@ -20,9 +20,6 @@ const Alert = () => {
         {" "}
         click me
       </button> */}
-      <div>
-        <h1>I am learning Git</h1>
-      </div>
     </div>
   );
 };

@@ -23,8 +23,11 @@ import Dropdown from "./components/Tasks/Dropdown";
 import MapArray from "./components/Tasks/MapArray";
 import CheckArray from "./components/Tasks/CheckArray";
 import Login from "./components/Tasks/Login";
-import Alert from "./components/Tasks/Alert";
+
+import Animation from "./components/Tasks/Animation";
+import LottieAnimation from "./components/Tasks/LottieAnimation";
 const App = () => {
+  // const LOTTIE_PATH = "https://assets.codepen.io/3685267/cute-cat-works.json";
   // let UserName = "Harikesh Tiwari";
   // let collage = ["bbdu", "nit", "srmu", "goel"];
   // let person1 = {
@@ -69,7 +72,10 @@ const App = () => {
         {/* <MapArray />
         <CheckArray /> */}
         {/* <Login /> */}
-        <Alert />
+
+        {/* <Animation /> */}
+
+        {/* <LottieAnimation className="w-96 h-96" path={LOTTIE_PATH} /> */}
       </div>
     </>
   );
